@@ -1,0 +1,52 @@
+.content{
+   width: 15em;
+   float: left;
+   position: relative;
+   border-radius: .7rem ;
+   border: 3px solid rgba(236, 229, 229, 0.062);
+   overflow: hidden; 
+}
+.pic img{
+   
+    width: 100%;bottom: 0;
+   
+}
+.title{
+    font-weight: bold;
+    /* margin-bottom: .1em; */
+    color: #e8ebe9;
+    background-color: rgba(128, 128, 128, 0.671);
+   
+
+}
+.deail{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 4px;
+    top: 0;
+    background-color: rgba(128, 128, 128, 0.671);
+   
+      padding-left: 1rem;
+}
+.channel,.views{
+    font-size: small;
+    color: #e7e7e7;
+    /* margin-bottom: 0.2em; */
+     
+}
+.close{
+    position: absolute;
+       margin-right:.5rem ;margin-top: .5rem;
+       right: 0;
+}
+.edit{
+    position: absolute;
+       margin-left:.5rem ;margin-top: .5rem;text-align: center;
+       background-color: rgba(240, 248, 255, 0.445);
+       width: 2rem;height: 1.4rem;border: none;border-radius: 2px;
+    
+}
+.edit:hover{
+    color: rgb(47, 0, 255);
+    border: 1px solid  rgb(47, 0, 255);
+}

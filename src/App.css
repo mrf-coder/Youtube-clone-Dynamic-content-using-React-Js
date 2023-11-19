@@ -1,0 +1,21 @@
+
+
+
+.App {
+  text-align: center;
+  min-height: 200vh;
+ background-image: url("https://picsum.photos/seed/seed1/999/700"  );
+  background-attachment: fixed;
+  
+}
+.Mtop{
+  margin: 1rem;
+}
+.btn{
+  width: 3.5rem;height: 1.5rem;
+  background-color: rgba(37, 235, 202, 0.712);
+  border: none;border-radius: 3px;position: absolute;
+      margin-top: 2rem;position: fixed;
+}
+
+
